@@ -1,0 +1,38 @@
+.headder{
+    background-color:aqua ;
+    color: white;
+    padding: 50px;
+    font-size: 25px;
+}
+.discription{
+    background-color: black;
+    color: white;
+    
+}
+.grid{
+    background-color:blue;
+    display: flex;
+    flex-wrap: wrap;
+justify-content: space-around;
+}
+.headder{
+    background-color: #8a0027;
+background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
+
+}
+.item{
+    position: relative;
+}
+.item p{
+    opacity:0 ;
+    position: absolute;
+    top:50% ;
+    left: 30%;
+}
+
+.item:hover p{
+    opacity:1;
+}
+.item:hover img{
+    opacity:0.3 ;
+}
